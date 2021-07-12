@@ -16,9 +16,8 @@
 }
 .cards-header {
   width: 100%;
-  // border-bottom: 1px grey solid;
-  padding: 5vh;
-  background-color: #167ffb30;
+  padding: 4vh;
+  background-color: #3A98DF;
   border-radius: 24px 24px 0 0;
 }
 .container {
@@ -26,20 +25,18 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0,0,0,0.3);
   margin-top: 16px;
   padding-top: 16px;
   border-radius: 24px;
   height: 100%;
 }
-.card{
+.card {
   background-size: cover;
   background-position: center;
   background-color: white;
-  // border: 2px grey solid;
   margin-bottom: 16px;
-  min-height: 26vh;
-  padding: 16px;
+  padding-top: 8px;
   border-radius: 24px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   display: flex;
@@ -48,38 +45,57 @@
   font-size: 22px;
   color: #023047;
   font-family: 'Quicksand', sans-serif;
-  font-weight: bolder;
   text-align: center;
   text-shadow: 0 0 10px rgba(0,0,0,0.3);
-  p { font-size: 20px;
+  p { font-size: 18px;
     font-weight: lighter;
     text-shadow: none;
-    text-align: justify;
+    text-align: center;
+    max-height: 26vh;
+    overflow: auto;
   }
+}
+.card-photo {
+  height: 40vh;
+  margin-bottom: 0px;
+  border-radius: 24px 24px 0 0;
+  border: 2px solid white;
+  box-shadow: none;
+}
+.card-about {height: 30vh;
+  margin-bottom: 0px;
+  border-radius: 0;
+  border: 2px solid white;
+  box-shadow: none;
+}
+.card-links {
+  min-height: 12vh;
+  border-radius: 0 0 24px 24px;
+  border: 2px solid white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
 }
 .card-skills {
   display: flex;
   align-items: center;
+  text-align: center;
   justify-content: space-between;
-  min-height: 22vh;
-  margin-top: 24px;
+  min-height: 26vh;
+  // margin-top: 12px;
   background-size: cover;
   background-position: center;
-  background-color: #167ffb30;
-  // border: 2px grey solid;
+  background-color: #3A98DF;
   border-radius: 24px;
   font-size: 22px;
   color: white;
   font-family: 'Quicksand', sans-serif;
   font-weight: bolder;
-  text-align: center;
-  text-shadow: 0 0 10px rgba(0,0,0,0.3);
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);
 }
 .about-me.cards-container {
   background-size: cover;
   background-position: center;
   background-color: white;
-  // border: 2px grey solid;
   margin: auto;  // padding: 16px;
   max-height: 100%;
   border-radius: 24px;
@@ -98,9 +114,25 @@
     grid-template-columns: 1fr 1fr;
   }
 }
-
 @media(max-width: 768px) {
   .container {
     grid-template-columns: 1fr;
   }
+}
+.card-photo {
+  background-position: top;
+}
+.card-links {
+  display: flex;
+  align-items: center;
+}
+.card-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.card-links a:hover {
+  opacity: 1;
 }
