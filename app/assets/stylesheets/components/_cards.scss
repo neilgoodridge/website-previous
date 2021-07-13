@@ -41,12 +41,12 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font-size: 22px;
+  font-size: 18px;
   color: #023047;
   font-family: 'Quicksand', sans-serif;
   text-align: center;
   text-shadow: 0 0 10px rgba(0,0,0,0.3);
-  p { font-size: 18px;
+  p { font-size: 15px;
     font-weight: lighter;
     text-shadow: none;
     text-align: center;
@@ -61,14 +61,14 @@
   border: 2px solid white;
   box-shadow: none;
 }
-.card-about {height: 30vh;
+.card-about {height: 32vh;
   margin-bottom: 0px;
   border-radius: 0;
   border: 2px solid white;
   box-shadow: none;
 }
 .card-links {
-  min-height: 12vh;
+  min-height: 10vh;
   border-radius: 0 0 24px 24px;
   border: 2px solid white;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -79,13 +79,13 @@
   align-items: center;
   text-align: center;
   justify-content: space-between;
-  min-height: 28vh;
+  min-height: 22vh;
   margin-bottom: 12px;
   background-size: cover;
   background-position: center;
   background-color: #3A98DF;
   border-radius: 24px;
-  font-size: 22px;
+  font-size: 18px;
   color: white;
   font-family: 'Quicksand', sans-serif;
   font-weight: bolder;
@@ -102,7 +102,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 22px;
+  font-size: 18px;
   color: #023047;
   font-family: 'Quicksand', sans-serif;
   font-weight: bolder;
