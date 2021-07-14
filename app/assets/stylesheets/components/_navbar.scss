@@ -1,7 +1,12 @@
-// .navbar {
-//   overflow: hidden;
-//   background-color: #333;
-//   position: fixed;
-//   top: 0;
-//   width: 100%;
-// }
+.navbar-lewagon {
+  justify-content: space-between;
+  background: white;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
