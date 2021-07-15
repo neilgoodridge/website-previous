@@ -12,12 +12,12 @@
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   margin-bottom: 16px;
   border-radius: 24px;
-  background-color: white;
+  background-color: transparent;
 }
 .cards-header {
   width: 100%;
   padding: 4vh;
-  background-color: #3A98DF;
+  background-color: transparent;
   border-radius: 24px 24px 0 0;
 }
 .container {
@@ -46,7 +46,7 @@
   font-family: 'Quicksand', sans-serif;
   text-align: center;
   text-shadow: 0 0 10px rgba(0,0,0,0.3);
-  p { font-size: 15px;
+  p { font-size: 17px;
     font-weight: lighter;
     text-shadow: none;
     text-align: center;
@@ -66,7 +66,7 @@
   -webkit-filter: drop-shadow(8px 8px 8px #333);
   filter: drop-shadow(8px 8px 8px #333);}
 .card-photo {
-  height: 40vh;
+  height: 42vh;
   margin-bottom: 0px;
   box-shadow: none;
   background-color: transparent;
@@ -78,7 +78,7 @@
   box-shadow: none;
 }
 .card-links {
-  min-height: 10vh;
+  min-height: 8vh;
   border-radius: 0 0 24px 24px;
   border: 2px solid white;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
