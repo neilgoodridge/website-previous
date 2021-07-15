@@ -5,7 +5,7 @@ ruby '2.6.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.7'
-
+gem 'sqlite3'
 gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
@@ -26,7 +26,7 @@ gem 'font-awesome-sass', '~> 5.6.1'
 gem 'simple_form'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
-
+gem 'dotenv-rails', groups: [:development, :test]
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
