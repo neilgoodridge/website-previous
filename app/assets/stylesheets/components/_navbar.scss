@@ -2,6 +2,7 @@
   justify-content: space-between;
   background-color: rgba(0,0,0,0.1);
   font-family: 'Quicksand', sans-serif;
+  padding: 2%;
   height: 6vh;
 }
 
@@ -10,6 +11,7 @@
 }
 
 .navbar-lewagon .navbar-brand img {
-  width: 50px;
+  min-width: 30px;
+  height: 20px;
   background-color: transparent;
 }
