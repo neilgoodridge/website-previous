@@ -94,7 +94,6 @@
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
   background-size: cover;
   background-position: center;
-  background-color: #3A98DF;
   border-radius: 24px;
   font-size: 22px;
   color: white;
@@ -103,7 +102,10 @@
   text-shadow: 0 0 10px rgba(0,0,0,0.7);
 }
 .card-skills:hover {
-  background: linear-gradient (rgba(0,0,0,0), rgba(0,0,0,0));
+  border: 3px solid white;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: .15s ease;
 }
 .about-me.cards-container {
   background-size: cover;
