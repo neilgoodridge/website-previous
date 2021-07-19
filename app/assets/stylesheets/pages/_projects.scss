@@ -23,7 +23,10 @@ p {
 }
 p strong {color:#555555;}
 
-p a{color:#27ae60; text-decoration:none;}
+p a {
+  color: #157FFA;
+  text-decoration:none;
+}
 
 /*img stuff*/
 img {max-width: 100%;}
@@ -96,3 +99,8 @@ img {max-width: 100%;}
   }
 }
 
+iframe {
+  height: 50vh;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
