@@ -3,9 +3,52 @@ body {
   background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(https://images.unsplash.com/photo-1604076947037-d909e2f10fca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=80);
   background-size: cover;
 }
-// .banner {
-//   background-color: lightgrey;
-// }
-// .button-info {
-//   margin-left: 20%;
-// }
+.container {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(0,0,0,0.1);
+  padding: 12px 16px 12px 16px;
+  border-radius: 24px;
+  height: auto;
+  margin: 3vh 8%;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.image {
+  align-items: center;
+  background-repeat: no-repeat;
+  margin: 0 5%;
+  overflow: hidden;
+  min-width: 30%;
+  height: 30vh;
+  max-width: 400px;
+  -webkit-filter: drop-shadow(4px 4px 4px #444);
+  filter: drop-shadow(4px 4px 4px #444);}
+.card-photo {
+  height: 38vh;
+  margin: auto;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}

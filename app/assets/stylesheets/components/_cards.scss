@@ -19,20 +19,6 @@
   background-color: transparent;
   border-radius: 24px 24px 0 0;
 }
-.container {
-  flex-grow: 1;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background-color: rgba(0,0,0,0.1);
-  padding: 12px 16px 12px 16px;
-  border-radius: 24px;
-  height: auto;
-  margin: 3vh 8%;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
 .card {
   background-size: cover;
   background-position: center;
@@ -57,28 +43,11 @@
     overflow: auto;
   }
 }
-.image {
-  align-items: center;
-  background-repeat: no-repeat;
-  // background-size: cover;
-  margin: 0 5%;
-  overflow: hidden;
-  min-width: 30%;
-  height: 30vh;
-  // min-height: 30%;
-  max-width: 400px;
-  -webkit-filter: drop-shadow(4px 4px 4px #444);
-  filter: drop-shadow(4px 4px 4px #444);}
-.card-photo {
-  height: 38vh;
-  margin: auto;
-}
 .card-about {
   height: 26vh;
   min-height: 100px;
   margin-bottom: 0px;
   border-radius: 24px 24px 0 0 ;
-  // border: 2px solid #f6f6f6;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 .card-links {
@@ -86,9 +55,6 @@
   border-radius: 0 0 24px 24px;
   border: 2px solid #f6f6f6;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  // a { color: orange;
-  //   z-index: 10;
-  //   font-size: 20px;}
 }
 .card-skills {
   display: flex;
@@ -137,20 +103,11 @@
 @media (max-width: 992px) {
 .container {
     grid-template-columns: 1fr 1fr;
-    // margin: 3vh 8vw;
-    .image {
-    // margin: auto 10%;
-    // margin-top: 1vh;
-    // margin-bottom: 0px;
-        // transform: scale(0.95);
-
     .card-about { min-height: 18vh;}
   }
 }
-}
 @media(max-width: 768px) {
-  .container {
-    display: contents;}
+  .container {display: contents;}
   .image { height: 25vh;
     margin: 0 7%;
     padding-top: 3vh;
@@ -175,26 +132,6 @@
 .card-links a:hover {
   opacity: 1;
   text-decoration: none;
-}
-
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
 }
 
 .card-links {
