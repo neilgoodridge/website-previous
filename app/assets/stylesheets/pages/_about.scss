@@ -19,29 +19,54 @@
 }
 .professional {
   height: 76vh;
-  border: 2px solid black;
+  border: 1px solid black;
+  overflow: hidden;
+  border-radius: 24px;
 }
 .personal {
   height: 76vh;
-  border: 2px solid black;
+  border: 1px solid black;
   background-color: #f6f6f6;
   align-items: center;
+  border-radius: 24px;
   p {font-size: 12px;
     text-align: center;
+    padding: 8px;
   }
 }
+h2 { text-align: center;}
 .cv {
   max-width: 100%;
   height: auto;
+  border-radius: 24px;
+  border: 1px solid black;
 }
-.personal-1 { height: 21%; border: 2px solid black; margin: 12px;}
-.personal-2 { height: 21%; border: 2px solid black; margin: 12px;}
-.personal-3 { height: 21%; border: 2px solid black; margin: 12px;}
-.personal-4 { height: 21%; border: 2px solid black; margin: 12px;}
+.personal-1 { max-height: 21%; border: 1px solid black; margin: 12px; overflow: scroll; border-radius: 12px;}
+.personal-2 { max-height: 21%; border: 1px solid black; margin: 12px; overflow: scroll; border-radius: 12px;}
+.personal-3 { max-height: 21%; border: 1px solid black; margin: 12px; overflow: scroll; border-radius: 12px;}
+.personal-4 { max-height: 21%; border: 1px solid black; margin: 12px; overflow: scroll; border-radius: 12px;}
 
 .links {
   margin-top: 1vh;
   background-color: #f6f6f6;
   height: 11vh;
-  border: 2px solid black;
+  border: 1px solid black;
+  border-radius: 24px;
 }
+@media (max-width: 992px) {
+.about-container {
+    grid-template-columns: 1fr 1fr;
+    .card-about { min-height: 18vh;}
+  }
+}
+@media(max-width: 768px) {
+  .about-container {    grid-template-columns: 1fr;
+    margin-top: 3vh;
+}
+  .cv {overflow: scroll;}
+  }
+  .image { height: 25vh;
+    margin: 0 7%;
+    padding-top: 3vh;
+  }
+  .card-about { min-height: 15vh;}

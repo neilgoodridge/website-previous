@@ -14,4 +14,12 @@ class PagesController < ApplicationController
   def contact
   end
 
+  def download_pdf
+    send_file(
+      "#{Rails.root}/public/Neil Goodridge CV.pdf",
+      filename: "Neil Goodridge CV.pdf",
+      type: "application/pdf"
+    )
+  end
+
 end
