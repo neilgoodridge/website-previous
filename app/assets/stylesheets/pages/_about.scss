@@ -3,11 +3,11 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 .about-container {
   width: 70%;
-  margin: 5vh 15%;
-  height: auto;
+  margin: 2vh 15%;
+  height: 70vh;
   flex-grow: 1;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.7fr 1.3fr;
   grid-gap: 16px;
   background-color: rgba(0,0,0,0.1);
   padding: 12px 16px 12px 16px;
@@ -18,15 +18,15 @@
   transform: translateY(-50%);
 }
 .professional {
-  height: 76vh;
-  border: 1px solid black;
+  height: 64vh;
+  margin: 3.5vh auto 0px;
   overflow: hidden;
-  border-radius: 24px;
+  border-radius: 12px;
+  min-width: 95%;
 }
 .personal {
-  height: 76vh;
-  border: 1px solid black;
-  background-color: #f6f6f6;
+  height: 67vh;
+  background-color: transparent;
   align-items: center;
   border-radius: 24px;
   p {font-size: 12px;
@@ -38,35 +38,39 @@ h2 { text-align: center;}
 .cv {
   max-width: 100%;
   height: auto;
-  border-radius: 24px;
-  border: 1px solid black;
+  border-radius: 12px;
+  overflow: scroll;
 }
-.personal-1 { max-height: 21%; border: 1px solid black; margin: 12px; overflow: scroll; border-radius: 12px;}
-.personal-2 { max-height: 21%; border: 1px solid black; margin: 12px; overflow: scroll; border-radius: 12px;}
-.personal-3 { max-height: 21%; border: 1px solid black; margin: 12px; overflow: scroll; border-radius: 12px;}
-.personal-4 { max-height: 21%; border: 1px solid black; margin: 12px; overflow: scroll; border-radius: 12px;}
+.personal-1 { height: 40%; overflow: hidden; border-radius: 12px; background-color: transparent;}
+.personal-2 { height: 40%; overflow: hidden; border-radius: 12px; background-color: transparent;}
+.personal-3 { height: 40%; overflow: hidden; border-radius: 12px; background-color: transparent;}
+.personal-4 { height: 40%; overflow: hidden; border-radius: 12px; background-color: transparent;}
 
 .links {
-  margin-top: 1vh;
   background-color: #f6f6f6;
   height: 11vh;
-  border: 1px solid black;
-  border-radius: 24px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 @media (max-width: 992px) {
 .about-container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.7fr 1.3fr;
     .card-about { min-height: 18vh;}
   }
 }
 @media(max-width: 768px) {
-  .about-container {    grid-template-columns: 1fr;
-    margin-top: 3vh;
+  .about-container {
+    display: contents;
+    justify-content: space-around;
 }
-  .cv {overflow: scroll;}
-  }
-  .image { height: 25vh;
-    margin: 0 7%;
-    padding-top: 3vh;
+  .professional {
+    overflow: scroll;
+    margin: 2%;}
   }
   .card-about { min-height: 15vh;}
+
+.flip-card-image {
+  background-size: contain;
+  background-position: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
