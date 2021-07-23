@@ -35,8 +35,8 @@
   font-family: 'Quicksand', sans-serif;
   text-align: center;
   text-shadow: 0 0 10px rgba(0,0,0,0.3);
-  p { font-size: 17px;
-    font-weight: lighter;
+  p { font-size: 16px;
+    font-weight: light;
     text-shadow: none;
     text-align: center;
     max-height: 26vh;
@@ -136,23 +136,28 @@
 
 .card-links {
   background: #F6F6F6;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 0px 50px;
   color: rgba(0,0,0,0.3);
-}
-.footer-links {
   display: flex;
-  align-items: center;
+    flex-direction: row;
+    align-items: center;
+    // justify-content: space-between;
 }
-.footer-links a {
+// .card-links a {
+//   display: block;
+//   align-items: center;
+//   color: black;
+//   z-index: 5;
+// }
+
+.card-links a {
   color: black;
-  opacity: 0.5;
+  opacity: 0.6;
+  transition: ease .2s;
   text-decoration: none;
   font-size: 24px;
   padding: 0px 10px;
 }
-.footer-links a:hover {
+.card-links a:hover {
   opacity: 1;
 }
