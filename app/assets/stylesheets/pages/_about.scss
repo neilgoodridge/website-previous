@@ -88,7 +88,6 @@
   backface-visibility: hidden;
   border-radius: 12px;
 }
-
 .middle {
   transition: .3s ease;
   opacity: 0;
@@ -98,14 +97,12 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%)
 }
-
 .cv-image:hover {
   opacity: 0.7;
 }
 .button:hover .cv-image {
   opacity: 0.7;
 }
-
 .cv:hover .middle {
   opacity: 1;
 }
@@ -125,7 +122,6 @@
   background-color: white;
   transition: ease .3s;
   text-decoration: none;
-  .cv-image {opacity: 0.7;}
 }
 .visit-list {
   list-style-type: none;
