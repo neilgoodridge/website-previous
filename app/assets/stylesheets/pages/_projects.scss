@@ -1,6 +1,6 @@
 .card-project {
   overflow: hidden;
-  height: 26vh;
+  height: 24vh;
   background: #f6f6f6;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
@@ -117,13 +117,13 @@
   text-align: left;
 }
 .container-projects {
-  width: 70%;
-  margin: 5vh 15%;
+  width: 65%;
+  margin: 3vh 15%;
   height: auto;
   flex-grow: 1;
   display: inline-block;
   background-color: rgba(0,0,0,0.1);
-  padding: 12px 16px 12px 16px;
+  padding: 12px 16px 0px 16px;
   border-radius: 24px;
   position: absolute;
   top: 50%;
