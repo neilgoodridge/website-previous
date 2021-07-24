@@ -101,7 +101,8 @@
   }
 }
 @media(max-width: 768px) {
-  .container {display: contents;}
+  .container { grid-template-columns: 1fr;
+}
   .image { height: 25vh;
     margin: 0 7%;
     padding-top: 3vh;
