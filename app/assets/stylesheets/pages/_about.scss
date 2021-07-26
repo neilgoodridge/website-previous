@@ -7,7 +7,7 @@
   height: 71vh;
   flex-grow: 1;
   display: grid;
-  grid-template-columns: 0.85fr 1.65fr;
+  grid-template-columns: 0.94fr 1.65fr;
   grid-gap: 16px;
   background-color: rgba(0,0,0,0.1);
   padding: 12px 16px 12px 16px;
@@ -57,10 +57,10 @@
 }
   .professional {
     overflow: scroll;
-    margin: 2%;}
+    height: auto;}
   }
   .personal {
-    margin: 2%;
+    margin: 0%;
   }
   .card-about { min-height: 15vh;}
 
