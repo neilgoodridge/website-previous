@@ -53,12 +53,17 @@
 @media(max-width: 768px) {
   .about-container {
     display: contents;
-    justify-content: space-around;
-}
+    justify-content: space-around;}
   .professional {
     overflow: scroll;
     height: auto;}
+  .cv { position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
   }
+}
+
   .personal {
     margin: 0%;
   }
@@ -87,6 +92,7 @@
   display: block;
   width: 100%;
   height: auto;
+  margin: auto;
   transition: .3s ease;
   backface-visibility: hidden;
   border-radius: 12px;
