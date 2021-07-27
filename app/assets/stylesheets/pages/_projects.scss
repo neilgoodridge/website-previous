@@ -159,10 +159,11 @@
     font-weight: bold;
     width: 45%;
     margin: 0;
+    padding-right: 0px;
     padding-left: 6%;
     font-family: 'Quicksand', sans-serif;
     position: absolute;
-    top: 2vh;
+    top: 1vh;
     right: 2vh;
     padding-bottom: 2vh;
     text-align: left;
@@ -176,10 +177,10 @@
   padding-right: 6%;
   font-family: 'Quicksand', sans-serif;
   position: absolute;
-  max-width: 45%;
+  max-width: 53%;
   max-height: 70%;
   bottom: 1vh;
-  left: 2vh;
+  left: -3%;
   overflow: scroll;
 }
 .card-project-left h2 {
@@ -190,7 +191,7 @@
   padding-right: 6%;
   font-family: 'Quicksand', sans-serif;
   position: absolute;
-  top: 2vh;
+  top: 1vh;
   left: 2vh;
   padding-bottom: 2vh;
   text-align: right;
