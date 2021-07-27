@@ -48,8 +48,7 @@ body {
     margin: auto;
     padding-top: 3vh;}
   .card-about { min-height: 15vh;}
-      margin-bottom: 2vh;
-}
+      margin-bottom: 2vh;}
 @media(max-width: 600px) {
   .container {display: contents;}
     .card-photo {height: 30vh;}
@@ -58,7 +57,8 @@ body {
   .card-about { min-height: 15vh;}
       // margin-bottom: 2vh;}
   .card-contact {margin-bottom: 2vh;
-    border-radius: 12px 12px 24px 24px;}
+    border-radius: 12px;}
+  .card-links {height: 6vh;}
 }
 
 
