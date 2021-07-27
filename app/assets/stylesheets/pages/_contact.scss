@@ -1,8 +1,4 @@
 .contact-card {
-  // display: flex;
-  // align-items: center;
-  text-align: center;
-  // justify-content: space-around;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
   background-size: contain;
   background-position: center;
@@ -12,16 +8,8 @@
   font-size: 22px;
   background-color: #f6f6f6;
   font-family: 'Quicksand', sans-serif;
-  font-weight: bolder;
-  text-shadow: 0 0 10px rgba(0,0,0,0.7);
-  text-decoration: none;
-  // max-width: 500px;
   width: 20vh;
   height: 20vh;
-  // margin: 32px;
-  // left: 50%;
-  // -webkit-transform: translateX(-50%);
-  // transform: translateX(-50%);
 }
 .contact-card:hover {
   cursor: pointer;
