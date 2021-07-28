@@ -52,14 +52,14 @@ body {
 @media(max-width: 600px) {
   .container {display: contents;}
     .card-photo {height: 30vh;}
-    .card-skills { border-radius: 0;}
+    .card-about, .card-links, .card-skills {border-radius: 0px;}
   .image { height: 30vh;
     margin: auto;}
   .card-about { min-height: 15vh;}
       // margin-bottom: 2vh;}
   .card-contact {margin-bottom: 2vh;
-    border-radius: 12px;}
-  .card-links {height: 6vh;}
+    border-radius: 0px;}
+  .card-links {height: 5vh;}
 }
 
 

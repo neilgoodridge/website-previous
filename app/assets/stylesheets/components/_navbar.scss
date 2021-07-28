@@ -33,19 +33,20 @@
   display: inline;
   float: right;
   font-size: 16px;
-  color: black;
+  color: white;
   opacity: 1;
 }
 .nav > .nav-links > a {
   display: inline-block;
   text-decoration: none;
-  color: black;
+  color: rgba(0,0,0,0.5);
 }
 .nav > .nav-links > a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #EFD3B1;
   height: 5vh;
-  color: white;
-  transition: ease 0.2s;
+  color: rgba(0,0,0,0.5);
+  transition: ease 0.3s;
+  border-radius: 8px 8px 0 0;
 }
 .nav > #nav-check {
   display: none;
@@ -56,8 +57,7 @@
     display: inline-block;
     position: absolute;
     right: 0px;
-    top: 0px;
-  }
+    top: 0px;}
   .nav > .nav-btn > label {
     display: inline-block;
     height: 5vh;
@@ -84,13 +84,12 @@
     right: 0px;
     border-radius: 0 0 0 12px;
     z-index: 1;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
-  }
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  }
   .nav > .nav-links > a {
     display: block;
     width: 100%;
     text-align: right;
-    // padding: 3%;
+    color: rgba(0,0,0,0.7);
     transition: all 0.3s ease-in;
   }
   .nav > #nav-check:not(:checked) ~ .nav-links {
