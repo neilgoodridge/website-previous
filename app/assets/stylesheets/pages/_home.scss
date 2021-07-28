@@ -26,13 +26,12 @@ body {
   transform: translateX(-50%);
   overflow: hidden;
   min-width: 30%;
-  max-height: 30vh;
-  max-width: 300px;
-  -webkit-filter: drop-shadow(4px 4px 4px #444);
-  filter: drop-shadow(4px 4px 4px #444);
-}
+  max-height: 33vh;
+  max-width: 350px;
+  -webkit-filter: drop-shadow(5px 0px 4px #444);
+  filter: drop-shadow(5px 4px 4px #444);}
 .card-photo {
-  height: 38vh;
+  height: 38.5vh;
   margin: auto;
   position: relative;
 }
@@ -44,16 +43,20 @@ body {
 }
 @media(max-width: 768px) {
   .container {display: contents;}
-  .image { height: 30vh;
+  .image { height: 29vh;
     margin: auto;}
+    .card-photo {height: 35vh;}
     // padding-top: 3vh;}
-  .card-about { min-height: 15vh;}
-      margin-bottom: 2vh;}
-@media(max-width: 600px) {
+  .card-about { min-height: 15vh;
+      margin-bottom: 2vh;
+    }
+  }
+
+@media(max-width: 500px) {
   .container {display: contents;}
     .card-photo {height: 30vh;}
     .card-about, .card-links, .card-skills {border-radius: 0px;}
-  .image { height: 30vh;
+  .image { height: 29vh;
     margin: auto;}
   .card-about { min-height: 15vh;}
       // margin-bottom: 2vh;}
