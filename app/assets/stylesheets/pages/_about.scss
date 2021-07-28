@@ -33,15 +33,15 @@
 .cv {margin: auto;
   img {height: auto;}
 }
-.personal-1 { height: 45%; max-width: 400px; border-radius: 12px; background-color: transparent;}
-.personal-2 { height: 45%; max-width: 400px; border-radius: 12px; background-color: transparent;}
-.personal-3 { height: 45%; max-width: 400px; border-radius: 12px; background-color: transparent;}
-.personal-4 { height: 45%; max-width: 400px; border-radius: 12px; background-color: transparent;}
+.personal-1 { height: 45%; max-width: 400px; border-radius: 8px; background-color: transparent;}
+.personal-2 { height: 45%; max-width: 400px; border-radius: 8px; background-color: transparent;}
+.personal-3 { height: 45%; max-width: 400px; border-radius: 8px; background-color: transparent;}
+.personal-4 { height: 45%; max-width: 400px; border-radius: 8px; background-color: transparent;}
 
 .links {
   background-color: #f6f6f6;
   height: 11vh;
-  border-radius: 12px;
+  border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 @media (max-width: 992px) {
@@ -94,7 +94,7 @@
   margin: auto;
   transition: .3s ease;
   backface-visibility: hidden;
-  border-radius: 12px;
+  border-radius: 8px;
 }
 .middle {
   transition: .3s ease;
