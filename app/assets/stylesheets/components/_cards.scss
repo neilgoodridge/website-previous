@@ -43,8 +43,6 @@
     overflow: scroll;
     padding: 0 2vw;
   }
-  h4 {font-family: 'Quicksand', sans-serif;
-    text-shadow: none;}
 }
 .card-about {
   height: 26vh;
@@ -145,7 +143,7 @@
   text-decoration: none;
 }
 .card-links {
-  height: 8vh;
+  min-height: 8vh;
   border-radius: 0 0 12px 12px;
   border: 2px solid #f6f6f6;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
