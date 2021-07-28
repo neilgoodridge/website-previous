@@ -45,8 +45,8 @@ body {
 @media(max-width: 768px) {
   .container {display: contents;}
   .image { height: 30vh;
-    margin: auto;
-    padding-top: 3vh;}
+    margin: auto;}
+    // padding-top: 3vh;}
   .card-about { min-height: 15vh;}
       margin-bottom: 2vh;}
 @media(max-width: 600px) {
@@ -84,4 +84,10 @@ body {
 .fa {
   color: black;
   font-size: 14px;
+}
+h5 { width: auto;
+  padding-right: 3%;}
+.underline {
+  background: linear-gradient(0deg, #0000 5%, #EED4AF 5%, #EED4AF 40%, #0000 40%);
+  font-family: 'Quicksand', sans-serif;
 }

@@ -155,7 +155,7 @@
     font-family: 'Quicksand', sans-serif;
     position: absolute;
     max-width: 45%;
-    max-height: 70%;
+    max-height: 75%;
     bottom: 0;
     right: 2vh;
     overflow: scroll;
@@ -184,7 +184,7 @@
     font-family: 'Quicksand', sans-serif;
     position: absolute;
     max-width: 45%;
-    max-height: 70%;
+    max-height: 75%;
     bottom: 0;
     overflow: scroll;
   }
@@ -204,11 +204,11 @@
 
 }
 @media (max-width: 500px) {
-  .card-project, .card-project-left {height: 20vh; margin-top: 4vh;
+  .card-project, .card-project-left {height: 22vh; margin-top: 4vh;
     margin: 0;
     border-radius: 0;}
     .nav { margin-bottom: 5vh;}
-    .card-project img, .card-project-left img { box-shadow: none;}
+    .card-project img, .card-project-left img { box-shadow: none; filter: grayscale(0%); }
     .card-project p, .card-project-left p { padding-top: 0;}
 }
 
