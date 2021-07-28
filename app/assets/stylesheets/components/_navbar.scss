@@ -61,7 +61,8 @@
   .nav > .nav-btn > label {
     display: inline-block;
     height: 5vh;
-    padding: 8px 15px;
+    padding: 5px 15px;
+    opacity: 0.7;
   }
   .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
     background-color: rgba(0, 0, 0, 0.3);
@@ -100,7 +101,7 @@
     height: auto;
   }
   .fa-bars {
-    font-size: 40px;
+    font-size: 25px;
   }
 }
 

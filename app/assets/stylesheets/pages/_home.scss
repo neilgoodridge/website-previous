@@ -52,6 +52,7 @@ body {
 @media(max-width: 600px) {
   .container {display: contents;}
     .card-photo {height: 30vh;}
+    .card-skills { border-radius: 0;}
   .image { height: 30vh;
     margin: auto;}
   .card-about { min-height: 15vh;}
@@ -75,18 +76,9 @@ body {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-// @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-//   [class*="col-"] {
-//     width: 100%;
-//   }
-// }
-.fa {
-  color: black;
-  font-size: 14px;
-}
 h5 { width: auto;
-  padding-right: 3%;}
+  padding-right: 3%;
+}
 .underline {
   background: linear-gradient(0deg, #0000 5%, #EED4AF 5%, #EED4AF 40%, #0000 40%);
   font-family: 'Quicksand', sans-serif;
