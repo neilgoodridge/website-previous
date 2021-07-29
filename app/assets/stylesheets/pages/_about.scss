@@ -4,28 +4,25 @@
 .about-container {
   width: 80%;
   margin: 0 9%;
-  height: 71vh;
+  height: auto;
   flex-grow: 1;
   display: grid;
   grid-template-columns: 0.94fr 1.65fr;
-  grid-gap: 16px;
-  background-color: rgba(0,0,0,0.1);
-  padding: 12px 16px 12px 16px;
-  border-radius: 24px;
+  background-color: #0000001a;
+  border-radius: 12px;
   position: absolute;
   top: 50%;
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 .professional {
   height: 64vh;
   margin: 3% auto 0px;
   overflow: hidden;
-  min-width: 95%;
+  min-width: 90%;
 }
 .personal {
   height: 67vh;
-  background-color: transparent;
+  background-color: #0000;
   align-items: center;
   border-radius: 24px;
   opacity: 0.9;
@@ -76,7 +73,7 @@
 }
 .cv {
   position: relative;
-  width: 100%;
+  width: 95%;
 }
 .flip-card-back {
   text-align: center;
