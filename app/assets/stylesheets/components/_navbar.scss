@@ -3,7 +3,7 @@
   height: 20px;
   background-color: transparent;
   opacity: 0.5;
-  margin: 0vh 0 1vh 0;
+  margin: 0vh 0 8% 0;
 }
 .navbar-brand img:hover {
   opacity: 0.8;
@@ -41,6 +41,7 @@
   display: inline-block;
   text-decoration: none;
   color: rgba(0,0,0,0.5);
+  margin: -1% 0% 0% 0;
 }
 .nav > .nav-links > a:hover {
   background-color: white;
