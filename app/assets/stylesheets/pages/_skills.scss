@@ -6,4 +6,6 @@
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  -webkit-filter: drop-shadow(4px 7px 7px #444);
+  filter: drop-shadow(4px 7px 7px #444);
 }
