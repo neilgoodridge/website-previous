@@ -32,6 +32,7 @@
   font-family: 'Quicksand', sans-serif;
   background-size: cover;
   background-position: top;
+  font-size: 16px;
 }
 
 /* Style the front side (fallback if image is missing) */
@@ -48,4 +49,5 @@
   color: black;
   transform: rotateY(180deg);
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  font-size: 16px;
 }
