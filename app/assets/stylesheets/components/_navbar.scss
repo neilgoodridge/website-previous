@@ -1,6 +1,6 @@
 .navbar-brand img {
   min-width: 30px;
-  height: 20px;
+  height: 29px;
   background-color: transparent;
   opacity: 0.5;
   margin: 0vh 0 8% 0;
@@ -17,6 +17,7 @@
   justify-content: space-between;
   background-color: rgba(0,0,0,0.1);
   font-family: 'Quicksand', sans-serif;
+  margin-bottom: 5vh;
 }
 .nav > .nav-header {
   display: inline;
@@ -106,4 +107,5 @@
     font-size: 25px;
   }
 }
+
 

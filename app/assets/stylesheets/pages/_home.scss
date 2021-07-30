@@ -18,6 +18,9 @@ body {
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  // background-color: #fca311;
+  // box-shadow: 0 0 90px rgba(0,0,0,0.5);
+
 }
 .image {
   align-items: center;
@@ -29,8 +32,8 @@ body {
   min-width: 30%;
   max-height: 32vh;
   max-width: 350px;
-  -webkit-filter: drop-shadow(2px -1px 5px #444);
-  filter: drop-shadow(2px -1px 5px #444);
+  -webkit-filter: drop-shadow(2px 0px 4px #444);
+  filter: drop-shadow(2px 0px 4px #444);
 }
 .card-photo {
   height: 26.5vh;
