@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   get 'skills', to: 'pages#skills'
   get 'about', to: 'pages#about'
   get 'contact', to: 'pages#contact'
+  get 'index', to: 'pages#index'
   get 'home/download_pdf'
 end
