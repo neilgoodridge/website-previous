@@ -83,3 +83,8 @@ color: #023047;}
   background: linear-gradient(0deg, #0000 5%, #EED4AF 5%, #EED4AF 40%, #0000 40%);
   font-family: 'Quicksand', sans-serif;
 }
+
+section.content-section {
+  background-origin: bottom;
+  min-height: 100vh;
+}
