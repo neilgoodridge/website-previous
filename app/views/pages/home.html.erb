@@ -1,10 +1,11 @@
-<div class="container col-10">
+<section class="content-section" id="">
+<div class="container home-container col-10">
   <div class="about-me col">
     <div class="col card-photo w-100 col-12">
       <img src="https://res.cloudinary.com/k2x4b-523p/image/upload/v1627512518/me-removebg_hjglpg.png" alt="" class="image">
     </div>
     <div class="col card card-about w-100 col-12">
-     <h5>Hi, <span class="underline">I'm Neil.</span></h5> <p>A full stack web developer based in London. <br><br>
+    <h5>Hi, <span class="underline">I'm Neil.</span></h5> <p>A full stack web developer based in London. <br><br>
         Have a look around, see what projects I've worked on, what I've got coming up, and learn a bit more about me. <br><br>
         I'm currently looking for a web development role in London or remote. If you see something that interests you, feel free to get in touch. <br>
       </p>
@@ -17,44 +18,46 @@
   <div class="cards-container col-12">
     <div class="cards-holder w-100 col-12">
       <div class="row cards">
-        <%= link_to projects_path do %>
         <div class="col card-skills card-projects col-12 w-100" style="background-image: url(https://res.cloudinary.com/k2x4b-523p/image/asset/v1627324572/projects-b17c10a3a9cf4eb614d82b9a8712ce1a.webp)" class="home-image">
-          Projects
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
         </div>
-        <% end %>
-        <%= link_to skills_path do %>
         <div class="col card-skills card-languages col-12" style="background-image: url(https://res.cloudinary.com/k2x4b-523p/image/asset/v1627324554/Skills-2cfb8c57fe89664ae6b1b7778781ea63.png)">
-          Skills
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
         </div>
-        <% end %>
-        <%= link_to about_path do %>
         <div class="col card-skills" style="background-image: url(https://res.cloudinary.com/k2x4b-523p/image/asset/v1627324552/MJ-60e3872491449c0e81c1f51217655a11.png)">
-          About Me
+          <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
         </div>
-        <% end %>
-        <%= link_to contact_path do %>
         <div class="col card-skills card-contact" style="background-image: url(https://res.cloudinary.com/k2x4b-523p/image/asset/v1627324550/Contact-c6262b6808776524d7d968dc8f14cee3.jpg)">
-          Contact Me
+          <a class="nav-link js-scroll-trigger" href="#contact">Contact Me</a>
         </div>
-        <% end %>
       </div>
     </div>
   </div>
 </div>
+</section>
 
-  <a class="js-scroll-trigger" href="#Projects"></a>
+<section class="content-section" style="background-image: url();" id="projects">
+  <a class="js-scroll-trigger" href="#projects"></a>
+  <%= render 'projects' %>
 </section>
-<section class="content-section banner" style="background-image: url();" id="skills">
-  <a class="js-scroll-trigger" href="#Skills"></a>
+
+<section class="content-section" style="background-image: url();" id="skills">
+  <a class="js-scroll-trigger" href="#skills"></a>
+  <%= render 'skills' %>
 </section>
-<section class="content-section banner banner-fill" style="background-image: url();" id="about">
-  <a class="js-scroll-trigger" href="#About"></a>
+
+<section class="content-section banner-fill" style="background-image: url();" id="about">
+  <a class="js-scroll-trigger" href="#about"></a>
+  <%= render 'about' %>
 </section>
-<section class="content-section banner" style="background-image: url();" id="contact">
-  <a class="js-scroll-trigger" href="#Contact"></a>
+
+<section class="content-section" style="background-image: url();" id="contact">
+  <a class="js-scroll-trigger" href="#contact"></a>
+  <%= render 'contact' %>
 </section>
+
 
 <%# scroll button %>
 <a href="#" class="scrollup" id="scroll-top"><i class="fas fa-arrow-circle-up"></i></a>
 <%# scroll button function %>
-<%= javascript_pack_tag 'scroll_top.js' %>
+<<%= javascript_pack_tag 'scroll_top.js' %>>
