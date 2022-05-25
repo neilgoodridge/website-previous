@@ -1,16 +1,10 @@
 // Specific CSS for your home-page
-body {
-  // background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(https://images.unsplash.com/photo-1604076947037-d909e2f10fca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=80);
-  // background-size: cover;
-  // background-color: #547DC5;
-}
+
 .content-section {
   background-origin: bottom;
   min-height: 100vh;
 }
-.home-section {
-  background: url(https://images.unsplash.com/photo-1604076947037-d909e2f10fca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=80);
-}
+
 .banner {
   background-size: cover;
   background-position: center;
@@ -45,7 +39,7 @@ body {
   filter: drop-shadow(2px 0px 4px #444);
 }
 .card-photo {
-  height: 25.8vh;
+  height: 25.7vh;
   margin: auto;
   position: relative;
 }

@@ -13,6 +13,16 @@
       <div class="col card card-links">
         <a class="fab fa-github fa-2x" target="blank" href="https://github.com/neilgoodridge"></a>
         <a class="fab fa-linkedin-in fa-2x" target="blank" href="https://linkedin.com/in/neilgoodridge/"></a>
+        <a class="fab fa-whatsapp fa-2x" target="_blank" href="https://wa.me/447500041449"></a>
+
+        <%= mail_to ('neilrgoodridge@gmail.com'), target: "_blank" do %>
+        <a class="fab fa-solid fa-at" href="mailto:neilrgoodridge@gmail.com"></a>
+        <% end %>
+
+        <%= link_to ('tel:07500041449'), target: "_blank" do %>
+        <a class="fab fa-phone-arrow-up-right" target="blank" href="tel:07500041449"></a>
+        <% end %>
+
       </div>
     </div>
     <div class="cards-container col-12">
@@ -33,12 +43,12 @@
   </div>
 </section>
 
-<section class="content-section" style="background-image: url(/Wallpaper2.png);" id="projects">
+<section class="content-section" style="background-image: url();" id="projects">
   <%= render 'projects' %>
     <a class="js-scroll-trigger" href="#projects"></a>
 </section>
 
-<section class="content-section banner-fill" style="background-image: url();" id="about">
+<section class="content-section" style="background-image: url();" id="about">
   <a class="js-scroll-trigger" href="#about"></a>
   <%= render 'about' %>
 </section>

@@ -16,13 +16,14 @@
 }
 .container-contact {
   // flex-grow: 1;
-  display: grid;
+  display: inline-block;
+  margin: 10vh 10%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 32px;
   // width: 60%;
   // position: absolute;
-  left: 38%;
-  right: 38%;
+  // left: 38%;
+  // right: 38%;
   // -webkit-transform: translateX(-50%);
   // transform: translateX(-50%);
   // top: 45%;

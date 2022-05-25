@@ -2,15 +2,24 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 .about-container {
+  // width: 80%;
+  // margin: 0% 9%;
+  // height: auto;
+  // flex-grow: 1;
+  // display: grid;
+  // grid-template-columns: 0.94fr 1.65fr;
+  // background-color: #0000001a;
+  // border-radius: 8px;
   width: 80%;
-  margin: 9% 9%;
+  margin: 0 10%;
   height: auto;
-  flex-grow: 1;
-  display: grid;
-  grid-template-columns: 0.94fr 1.65fr;
-  background-color: #0000001a;
-  border-radius: 8px;
-
+  // flex-grow: 1;
+  // display: inline-block;
+  display: inline-block;
+  grid-template-columns: 1fr;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 12px 16px 0px 16px;
+  // border-radius: 12px;
 }
 .professional {
   height: 64vh;
@@ -19,25 +28,25 @@
   min-width: 90%;
 }
 .personal {
-  height: 67vh;
-  margin: 1%;
+  height: 80vh;
+  // margin: 1%;
   background-color: #0000;
   align-items: center;
-  border-radius: 24px;
-  opacity: 0.9;
+  // border-radius: 24px;
+  // opacity: 0.9;
 }
 .cv {margin: auto;
   img {height: auto;}
 }
-.personal-1 { height: 45%; max-width: 400px; border-radius: 8px; background-color: transparent;}
-.personal-2 { height: 45%; max-width: 400px; border-radius: 8px; background-color: transparent;}
-.personal-3 { height: 45%; max-width: 400px; border-radius: 8px; background-color: transparent;}
-.personal-4 { height: 45%; max-width: 400px; border-radius: 8px; background-color: transparent;}
+.personal-1 { height: 45%; max-width: 400px; background-color: transparent;}
+.personal-3 { height: 45%; max-width: 400px; background-color: transparent;}
+.personal-4 { height: 45%; max-width: 400px; background-color: transparent;}
+.personal-2 { height: 45%; max-width: 400px; background-color: transparent;}
 
 .links {
   background-color: #f6f6f6;
   height: 11vh;
-  border-radius: 8px;
+  // border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
@@ -86,9 +95,21 @@
   .card-about { min-height: 15vh;}
 
 .flip-card-image {
-  background-size: contain;
+  background-color: rgba(58, 58, 238, 0.871);
   background-position: center;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  // box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.flip-card-inner a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 36px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #fff;
 }
 .cv {
   position: relative;
@@ -102,7 +123,7 @@
   margin: auto;
   transition: .3s ease;
   backface-visibility: hidden;
-  border-radius: 8px;
+  // border-radius: 8px;
 }
 .middle {
   display: flex;
@@ -128,7 +149,7 @@
   font-weight: bolder;
   padding: 8px 16px;
   border: 1px solid black;
-  border-radius: 5px;
+  // border-radius: 5px;
   text-decoration: none;
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;

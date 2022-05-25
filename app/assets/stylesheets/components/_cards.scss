@@ -10,14 +10,14 @@
 .cards-holder {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  // border-radius: 8px;
   background-color: transparent;
 }
 .cards-header {
   width: 100%;
   padding: 4vh;
   background-color: transparent;
-  border-radius: 12px 12px 0 0;
+  // border-radius: 12px 12px 0 0;
 }
 .card {
   background-size: cover;
@@ -25,7 +25,7 @@
   background-color: #f6f6f6;
   margin-bottom: 16px;
   padding-top: 8px;
-  border-radius: 8px;
+  // border-radius: 8px;
   // box-shadow: 0 0 10px rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
@@ -49,7 +49,7 @@
   height: 37.8vh;
   min-height: 100px;
   margin-bottom: 2vh;
-  border-radius: 8px;
+  // border-radius: 8px;
   border: #515151 2px solid;
   text-shadow: none;
   overflow: scroll;
@@ -66,7 +66,7 @@
   border: rgb(81, 81, 81) 2px solid;
   background-size: cover;
   background-position: center;
-  border-radius: 8px;
+  // border-radius: 8px;
   font-size: 26px;
   font-family: 'Quicksand', sans-serif;
   font-weight: bolder;
@@ -85,8 +85,8 @@
 }
 
 .card-skills:hover {
-  border: 2px white solid;
-  border-radius: 8px;
+  border: 2px #F6F6F6 solid;
+  // border-radius: 8px;
   cursor: pointer;
   transition: .2s;
   color: #fff;
@@ -102,8 +102,8 @@
   padding: auto;
   margin-bottom: 2vh; // padding: 16px;
   max-height: 100%;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  // border-radius: 8px;
+  // box-shadow: 0 0 10px rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -148,10 +148,10 @@
 .card-links a {
   color: black;
   opacity: 0.6;
-  transition: ease .2s;
+  transition: ease .1s;
   text-decoration: none;
-  font-size: 24px;
-  padding: 0px 10px;
+  font-size: 26px;
+  // padding: 0px 10px;
 }
 .card-links a:hover {
   opacity: 1;
@@ -159,9 +159,9 @@
 }
 .card-links {
   height: 6vh;
-  border-radius: 8px;
+  // border-radius: 8px;
   background: #F6F6F6;
-  padding: 0px 50px;
+  padding: 0px 2vw;
   color: rgba(0,0,0,0.3);
   display: flex;
   border: #515151 2px solid;
