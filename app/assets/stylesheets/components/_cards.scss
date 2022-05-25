@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 16px;
-  margin: 16px;
+  margin: 16px 0px;
   text-align: center;
   text-decoration: none;
 }
@@ -26,7 +26,7 @@
   margin-bottom: 16px;
   padding-top: 8px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  // box-shadow: 0 0 10px rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -35,7 +35,7 @@
   font-family: 'Quicksand', sans-serif;
   text-align: center;
   text-shadow: 0 0 10px rgba(0,0,0,0.3);
-  p { font-size: 18px;
+  a { font-size: 18px;
     font-weight: light;
     text-shadow: none;
     text-align: center;
@@ -46,36 +46,50 @@
   }
 }
 .card-about {
-  height: 37vh;
+  height: 37.8vh;
   min-height: 100px;
-  margin-bottom: 0px;
-  border-radius: 8px 8px 0 0;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin-bottom: 2vh;
+  border-radius: 8px;
+  border: #515151 2px solid;
   text-shadow: none;
+  overflow: scroll;
+  p {margin: 1em;}
 }
+
 .card-skills {
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: space-around;
   min-height: 22vh;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  // box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  border: rgb(81, 81, 81) 2px solid;
   background-size: cover;
   background-position: center;
   border-radius: 8px;
-  font-size: 22px;
-  color: white;
+  font-size: 26px;
   font-family: 'Quicksand', sans-serif;
   font-weight: bolder;
   text-shadow: 0 0 18px rgba(0,0,0,1);
   text-decoration: none;
-  a:link {text-decoration:none;}
+  color : #fff;
 }
+.card-skills a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
 .card-skills:hover {
-  border: 3px solid white;
+  border: 2px white solid;
   border-radius: 8px;
   cursor: pointer;
-  transition: .3s;
+  transition: .2s;
+  color: #fff;
 }
 #card-link, a:link, a:visited, a:hover, a:active, {
     text-decoration: none;
@@ -125,10 +139,11 @@
   and (orientation: landscape) {
     .card-about {height: 45.5vh;}
 }
-.card-photo {
+.card-photo { height: 25.8vh;
   .image {position: absolute;
     bottom: 0px;
     height: 33vh;}
+
 }
 .card-links a {
   color: black;
@@ -143,14 +158,13 @@
   text-decoration: none;
 }
 .card-links {
-  height: 8vh;
-  border-radius: 0 0 8px 8px;
-  border: 2px solid #f6f6f6;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  height: 6vh;
+  border-radius: 8px;
   background: #F6F6F6;
   padding: 0px 50px;
   color: rgba(0,0,0,0.3);
   display: flex;
+  border: #515151 2px solid;
   flex-direction: row;
   align-items: center;
 }

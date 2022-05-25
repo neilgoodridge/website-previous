@@ -2,13 +2,15 @@
 body {
   // background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(https://images.unsplash.com/photo-1604076947037-d909e2f10fca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=80);
   // background-size: cover;
-  background-color: white;
+  // background-color: #547DC5;
 }
 .content-section {
   background-origin: bottom;
   min-height: 100vh;
 }
-
+.home-section {
+  background: url(https://images.unsplash.com/photo-1604076947037-d909e2f10fca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=80);
+}
 .banner {
   background-size: cover;
   background-position: center;
@@ -20,7 +22,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
-  background-color: rgba(0,0,0,0.1);
+  // background-color: rgba(0,0,0,0.1);
   padding: 8px 16px 0px 16px;
   border-radius: 12px;
   height: auto;
@@ -29,9 +31,6 @@ body {
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  // background-color: #fca311;
-  // box-shadow: 0 0 90px rgba(0,0,0,0.5);
-
 }
 .image {
   align-items: center;
@@ -46,7 +45,7 @@ body {
   filter: drop-shadow(2px 0px 4px #444);
 }
 .card-photo {
-  height: 26.5vh;
+  height: 25.8vh;
   margin: auto;
   position: relative;
 }
@@ -89,7 +88,8 @@ body {
 
 h5 { width: auto; padding-right: 3%;
 font-family: 'Quicksand', sans-serif;
-color: #023047;}
+color: #023047;
+position: sticky;}
 .underline {
   background: linear-gradient(0deg, #0000 5%, #EED4AF 5%, #EED4AF 40%, #0000 40%);
   font-family: 'Quicksand', sans-serif;
