@@ -11,14 +11,15 @@
   // background-color: #0000001a;
   // border-radius: 8px;
   width: 80%;
-  margin: 0 10%;
+  margin: 10vh auto;
   height: auto;
   // flex-grow: 1;
   // display: inline-block;
-  display: inline-block;
-  grid-template-columns: 1fr;
+  display: inline;
+  grid-template-columns: 1fr 1fr;
+  // grid-gap: 2vh;
   background-color: rgba(0, 0, 0, 0.1);
-  padding: 12px 16px 0px 16px;
+  // padding: 12px 16px 0px 16px;
   // border-radius: 12px;
 }
 .professional {
@@ -29,7 +30,7 @@
 }
 .personal {
   height: 80vh;
-  // margin: 1%;
+  margin: auto;
   background-color: #0000;
   align-items: center;
   // border-radius: 24px;

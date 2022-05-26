@@ -32,6 +32,7 @@
   justify-content: space-around;
   font-size: 18px;
   color: #023047;
+  border: none;
   font-family: 'Quicksand', sans-serif;
   text-align: center;
   text-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -41,7 +42,7 @@
     text-align: center;
     max-height: 26vh;
     overflow: scroll;
-    padding: 0 3vw;
+    // padding: 0 3vw;
     margin: 0;
   }
 }
@@ -49,7 +50,7 @@
   height: 37.8vh;
   min-height: 100px;
   margin-bottom: 2vh;
-  // border-radius: 8px;
+  border-radius: 0px;
   border: #515151 2px solid;
   text-shadow: none;
   overflow: scroll;
@@ -67,12 +68,13 @@
   background-size: cover;
   background-position: center;
   // border-radius: 8px;
-  font-size: 26px;
+  font-size: 32px;
   font-family: 'Quicksand', sans-serif;
   font-weight: bolder;
   text-shadow: 0 0 18px rgba(0,0,0,1);
   text-decoration: none;
   color : #fff;
+
 }
 
 .card-skills a {
@@ -160,7 +162,7 @@
 }
 .card-links {
   height: 6vh;
-  // border-radius: 8px;
+  border-radius: 0px;
   background: #F6F6F6;
   padding: 0px 2vw;
   color: rgba(0,0,0,0.3);
