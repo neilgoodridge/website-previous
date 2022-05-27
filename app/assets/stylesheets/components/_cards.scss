@@ -22,17 +22,18 @@
 .card {
   background-size: cover;
   background-position: center;
-  background-color: #f6f6f6;
-  margin-bottom: 16px;
-  padding-top: 8px;
+  background-color: transparent;
+  margin: 2vh 0;
+  border: none;
+  // padding-top: 8px;
   // border-radius: 8px;
   // box-shadow: 0 0 10px rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
   justify-content: space-around;
+  border-radius: 0;
   font-size: 18px;
   color: #023047;
-  border: none;
   font-family: 'Quicksand', sans-serif;
   text-align: center;
   text-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -47,14 +48,25 @@
   }
 }
 .card-about {
-  height: 37.8vh;
-  min-height: 100px;
-  margin-bottom: 2vh;
-  border-radius: 0px;
-  border: #515151 2px solid;
+  min-height: 45vh;
+  // min-height: 100px;
+  margin-bottom: 10vh;
   text-shadow: none;
   overflow: scroll;
-  p {margin: 1em;}
+  p {margin: 1em 1em;
+    color: white;
+    font-size: 24px;
+    text-shadow: 0 0 10px black;}
+    h4 {
+        color: white;
+        font-size: 26px;
+        font-family: 'Quicksand', sans-serif;
+        text-shadow: 0 0 10px black;}
+        h3 {
+            color: white;
+            font-size: 36px;
+            font-family: 'Quicksand', sans-serif;
+            text-shadow: 0 0 10px black;}
 }
 
 .card-skills {
@@ -64,7 +76,7 @@
   justify-content: space-around;
   min-height: 33.9vh;
   // box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  border: rgb(81, 81, 81) 2px solid;
+  border: $border;
   background-size: cover;
   background-position: center;
   // border-radius: 8px;
@@ -97,34 +109,46 @@
 #card-link, a:link, a:visited, a:hover, a:active, {
     text-decoration: none;
 }
-.about-me.cards-container {
-  background-size: cover;
+.cards-container {
+  background-size: contain;
   background-position: center;
-  background-color: white;
-  margin: auto;
-  padding: auto;
-  margin-bottom: 2vh; // padding: 16px;
-  max-height: 100%;
+  background-color: transparent;
+  // margin: auto;
+  // padding: auto;
+  // margin-bottom: 2vh; // padding: 16px;
+  max-height: 85vh;
+
+}
+  // width: auto;
   // border-radius: 8px;
   // box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  display: flex;
+  .about-me {
   align-items: center;
+  border: $border;
   justify-content: space-between;
   font-size: 18px;
+  // height: min-content;
   color: #023047;
   font-family: 'Quicksand', sans-serif;
-  font-weight: bolder;
+  // font-weight: bolder;
   text-shadow: 0 0 10px rgba(0,0,0,0.3);
+
 }
 @media (max-width: 992px) {
   .container { grid-template-columns: 1fr 1fr;
+
+    p {
+        margin: 0em 1em;
+      }
   // .card-about { height: 36.5vh;}
   }
 }
 @media(max-width: 768px) {
   .container { grid-template-columns: 1fr;}
   .image { height: 25vh; margin: auto;}
-  .card-about { height: 36.5vh;}
+  .card-about { height: 36.5vh;
+    p {margin: 1em 3em;}
+  }
 }
 @media only screen and (max-width: 500px) {
   .container { grid-template-columns: 1fr;}
@@ -142,11 +166,12 @@
   and (orientation: landscape) {
     .card-about {height: 45.5vh;}
 }
-.card-photo { height: 25.8vh;
+.card-photo { height: 26vh;
   .image {position: absolute;
-    bottom: 0px;
-    height: 33vh;}
-
+    top: 2vh;
+    width: auto;
+    height: 72vh;
+  }
 }
 .card-links a {
   color: black;
@@ -163,11 +188,13 @@
 .card-links {
   height: 6vh;
   border-radius: 0px;
-  background: #F6F6F6;
+  // background: #F6F6F6;
   padding: 0px 2vw;
   color: rgba(0,0,0,0.3);
   display: flex;
-  border: #515151 2px solid;
+  border: $border;
   flex-direction: row;
   align-items: center;
+  background-size: cover;
+  background-position: center;
 }
