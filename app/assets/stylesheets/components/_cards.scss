@@ -134,38 +134,7 @@
   text-shadow: 0 0 10px rgba(0,0,0,0.3);
 
 }
-@media (max-width: 992px) {
-  .container { grid-template-columns: 1fr 1fr;
 
-    p {
-        margin: 0em 1em;
-      }
-  // .card-about { height: 36.5vh;}
-  }
-}
-@media(max-width: 768px) {
-  .container { grid-template-columns: 1fr;}
-  .image { height: 25vh; margin: auto;}
-  .card-about { height: 36.5vh;
-    p {margin: 1em 3em;}
-  }
-}
-@media only screen and (max-width: 500px) {
-  .container { grid-template-columns: 1fr;}
-  .card-photo {height: 30vh;}
-  .image { height: 25vh;}
-  .card-skills {border-radius: 0px; box-shadow: none; border-bottom: 6px solid #fff;}
-  .card-about { min-height: 15vh;}
-  .card-links {height: 6vh;}
-  .cards {grid-gap: 0px;}
-}
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) {
-    .card-about {height: 45.5vh;}
-}
 .card-photo { height: 26vh;
   .image {position: absolute;
     top: 2vh;
