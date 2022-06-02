@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 16px;
-  margin: 16px 0px;
+  margin: auto;
   text-align: center;
   text-decoration: none;
 }
@@ -23,14 +23,10 @@
   background-size: cover;
   background-position: center;
   background-color: transparent;
-  margin: 2vh 0;
   border: none;
   // padding-top: 8px;
   // border-radius: 8px;
   // box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   border-radius: 0;
   font-size: 18px;
   color: #023047;
@@ -49,24 +45,24 @@
 }
 .card-about {
   min-height: 45vh;
-  // min-height: 100px;
-  margin-bottom: 10vh;
+  margin: 2vh 0;
   text-shadow: none;
   overflow: scroll;
   p {margin: 1em 1em;
-    color: white;
+    color: black;
     font-size: 24px;
-    text-shadow: 0 0 10px black;}
+    text-shadow: 0 0 12px white;}
     h4 {
-        color: white;
+        color: black;
         font-size: 26px;
         font-family: 'Quicksand', sans-serif;
-        text-shadow: 0 0 10px black;}
+        text-shadow: 0 0 12px white;}
         h3 {
-            color: white;
+            color: black;
             font-size: 36px;
             font-family: 'Quicksand', sans-serif;
-            text-shadow: 0 0 10px black;}
+            text-shadow: 0 0 12px white;
+            margin: 2vh 0;}
 }
 
 .card-skills {
@@ -74,18 +70,14 @@
   align-items: center;
   text-align: center;
   justify-content: space-around;
-  min-height: 33.9vh;
+  height: 34vh;
+  min-height: 10vh;
   // box-shadow: 0 0 10px rgba(0,0,0,0.3);
   border: $border;
   background-size: cover;
   background-position: center;
   // border-radius: 8px;
-  font-size: 32px;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: bolder;
-  text-shadow: 0 0 18px rgba(0,0,0,1);
-  text-decoration: none;
-  color : #fff;
+
 
 }
 
@@ -96,7 +88,11 @@
   color:#fff;
   width: 100%;
   height: 100%;
+  font-size: 32px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
   text-decoration: none;
+  text-shadow: 0 0 18px rgba(0, 0, 0, 1);
 }
 
 .card-skills:hover {
@@ -132,7 +128,6 @@
   font-family: 'Quicksand', sans-serif;
   // font-weight: bolder;
   text-shadow: 0 0 10px rgba(0,0,0,0.3);
-
 }
 
 .card-photo { height: 26vh;
@@ -156,8 +151,11 @@
 }
 .card-links {
   height: 6vh;
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
   border-radius: 0px;
-  // background: #F6F6F6;
+  margin-top: 2vh;
   padding: 0px 2vw;
   color: rgba(0,0,0,0.3);
   display: flex;

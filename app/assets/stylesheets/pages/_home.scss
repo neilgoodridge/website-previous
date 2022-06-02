@@ -45,24 +45,24 @@
 // }
 @media (max-width: 992px) {
   .container {grid-template-columns: 1fr 1fr;}
-  .card-about { height: 36.5vh;}
+  // .card-about { height: 36.5vh;}
   .image {margin: auto}
 }
 @media(max-width: 768px) {
   .container {display: contents;}
   .image { height: 29vh; margin: auto;}
   .card-photo {height: 35vh;}
-  .card-about { height: 36.5vh;}
+  // .card-about { height: 36.5vh;}
 }
 
 @media(max-width: 500px) {
-  .container {display: contents;}
-  .card-photo {height: 30vh;}
+  .container {display: contents; height: 95vh;}
+  // .card-photo {height: 30vh;}
   .card-about, .card-links, .card-skills {border-radius: 0px;}
   .image { height: 29vh; margin: auto;}
-  .card-about { min-height: 15vh;}
+  .card-about { min-height: 30vh;}
   .card-contact {margin-bottom: 2vh; border-radius: 0px;}
-  .card-links {height: 5vh;}
+  // .card-links {height: 5vh;}
   .cards {box-shadow: none;}
 }
 
@@ -80,17 +80,33 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-.image-text h3, p{ width: auto; padding-right: 3%;
+.image-text h3, p{ width: auto;
 font-family: 'Quicksand', sans-serif;
 color: #023047;
 text-align: center;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-.underline {
-  background: linear-gradient(0deg, #0000 5%, #EED4AF 5%, #EED4AF 40%, #0000 40%);
-  font-family: 'Quicksand', sans-serif;}
+  text-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+// .underline {
+//   background: linear-gradient(0deg, #0000 5%, #EED4AF 5%, #EED4AF 40%, #0000 40%);
+//   font-family: 'Quicksand', sans-serif;}
 }
 
-// #left-image {
-//   -webkit-mask-image: linear-gradient(black, transparent);
-//     mask-image: linear-gradient(black, transparent);
-// }
+#left-image {
+  position: relative;
+    max-height: 94vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://res.cloudinary.com/k2x4b-523p/image/upload/v1653562140/me_xmkpgq.jpg");
+    background-size: cover;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+}
