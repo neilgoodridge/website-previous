@@ -18,7 +18,7 @@ gem 'turbolinks', '~> 5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 gem 'bundler', '~> 2.3', '>= 2.3.12'
-gem 'webpacker', '~> 5.4', '>= 5.4.3'
+gem 'webpacker', '~> 6.0.0.rc.6'
 gem 'bootstrap', '~> 5.1', '>= 5.1.3'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
